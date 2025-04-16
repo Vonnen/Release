@@ -1,0 +1,67 @@
+Label,LayoutType,Key1,Key2,Key3,Default1,Default2,Default3,SecondaryKey,Command,InitialListPosition
+TOGGLE LIVE DATA,COMMAND_BUTTON,,,,,,,,<0E0001>,0
+Ignition Key: ON,ONE_RADIO_BUTTON,IgnitionKeyON,,,,,,,,1
+Ignition Key: START,ONE_RADIO_BUTTON,IgnitionKeySTART,,,,,,,,2
+"Contactor Cmd (GEN2), Neg&Pos",TWO_RADIO_BUTTONS,ContactorCmdNeg,ContactorCmdPos,,false,false,,,,3
+"Contactor Fdbk, Neg/Mid/Pos",THREE_RADIO_BUTTONS,ContactorFdbkNeg,ContactorFdbkMid,ContactorFdbkPos,false,false,false,,,4
+Crash Sensor tripped,ONE_RADIO_BUTTON,CrashSensorTripped,,,,,,,,5
+HVIL not connected,ONE_RADIO_BUTTON,HVILnotConnected,,,,,,,,6
+Battery Charge Switch ON,ONE_RADIO_BUTTON,BatteryChargeSwitchON,,,,,,,,7
+Battery HV Isolation FAULT,ONE_RADIO_BUTTON,batteryIsolationFault,,,,,,,,8
+Battery Iso Fault OVERRIDE,RADIO_BUTTON_SWITCH,batteryIsolationFault_override,,,false,,,battIsoFaultOvrd_Cmd,<0E0006>,9
+Mid-pack Fuse Fault,ONE_RADIO_BUTTON,MidPackFuseFault,,,,,,,,10
+Battery SOC True %,TEXT_BOX,BatterySOCTrue,,,,,,,,11
+SOC _OK2Torque,ONE_RADIO_BUTTON,SOC_OK2Torque,,,,,,,,12
+Current System Mode,TEXT_BOX,CurrentSystemMode,,,,,,,,13
+Excitement Mode: ON,ONE_RADIO_BUTTON,ExcitementModeON,,,,,,,,14
+"Cranking Torque, Nm",TEXT_BOX,CrankingTorque,,,,,,,,15
+"Driver Demand, %",TEXT_BOX,DriverDemand,,,,,,,,16
+"Motor Torque Command, Nm",TEXT_BOX,MotorTorqueCmd,,,,,,,,17
+"Motor Torque Feedback, Nm",TEXT_BOX,MotorTorqueFdbk,,,,,,,,18
+"System Power, kW",TEXT_BOX,SystemPower,,,,,,,,19
+OK2torque,ONE_RADIO_BUTTON,OK2torque,,,,,,,,20
+OK2torque_ramped,ONE_RADIO_BUTTON,OK2torque_ramped,,,,,,,,21
+OK2regen,ONE_RADIO_BUTTON,Ok2regen,,,,,,,,22
+OK2regen_ramped,ONE_RADIO_BUTTON,OK2regen_ramped,,,,,,,,23
+"H2O Pump ON, Batt",RADIO_BUTTON_SWITCH,H2OPumpON_Batt,,,false,,,H2OPumpON_Batt_Cmd,,24
+"H2O Pump ON, Mtr/Inv",RADIO_BUTTON_SWITCH,H2OPumpON_Mtr,,,false,,,H2OPumpON_Mtr_Cmd,,25
+"H2O pumps, prime cycle",RADIO_BUTTON_SWITCH,H2OpumpsPrimeCycle,,,false,,,H2OpumpsPrimeCycle_Cmd,,26
+Prime cycle duration (s),TEXT_BOX,PrimeCycleDur,,,,,,,,27
+"H2O Press OK, Mtr/Inv",ONE_RADIO_BUTTON,H2OPressOK_Mtr,,,,,,,,28
+"Rad Fan ON, Batt Loop",RADIO_BUTTON_SWITCH,RadFanON_Batt,,,false,,,RadFanON_Batt_Cmd,,29
+"Rad Fan ON, Mtr/Inv Loop",RADIO_BUTTON_SWITCH,RadFanON_Mtr,,,false,,,RadFanON_Mtr_Cmd,,30
+"H2O Temp, Batt Loop °C",TEXT_BOX,H2OTemp_Batt,,,,,,,,31
+"H2O Temp, Mtr/Inv Loop °C",TEXT_BOX,H2OTemp_Mtr,,,,,,,,32
+Axle RPM,TEXT_BOX,AxleRPM,,,,,,,,33
+Motor RPM,TEXT_BOX,MotorRPM,,,,,,,,34
+Vehicle Speed,TEXT_BOX,VehicleSpeed,,,,,,,,35
+Current Gear,TEXT_BOX,CurrentGear,,,,,,,,36
+Clutch Engaged,ONE_RADIO_BUTTON,ClutchEngaged,,,,,,,,37
+"Throttle Position Value, V",TEXT_BOX,ThrottlePositionValue,,,,,,,,38
+Throttle Position %,TEXT_BOX,ThrottlePositionPcnt,,,,,,,,39
+"Brake Pressure Value, V",TEXT_BOX,BrakePressureValue,,,,,,,,40
+Brake Pressure %,TEXT_BOX,BrakePressurePcnt,,,,,,,,41
+Inverter Enable Command,ONE_RADIO_BUTTON,InverterEnableCmd,,,,,,,,42
+Inverter Enabled,ONE_RADIO_BUTTON,InverterEnabled,,,,,,,,43
+"Motor Temp, °C",TEXT_BOX,MotorTemp,,,,,,,,44
+OK2Torque – Motor Temp,ONE_RADIO_BUTTON,OK2Torque_MotorTemp,,,,,,,,45
+"Inverter Temp, °C",TEXT_BOX,InverterTemp,,,,,,,,46
+OK2Torque – Inverter Temp,ONE_RADIO_BUTTON,OK2Torque_InvTemp,,,,,,,,47
+"Battery Min Temp, °C",TEXT_BOX,BatteryMinTemp,,,,,,,,48
+"Battery Max Temp, °C",TEXT_BOX,BatteryMaxTemp,,,,,,,,49
+OK2Torque – Battery Temp,ONE_RADIO_BUTTON,OK2Torque_BattTemp,,,,,,,,50
+Battery Pack Voltage (SumOfCells),TEXT_BOX,BatteryPackV_SumOfCells,,,,,,,,51
+"Battery Pack Voltage (@ Terminals, GEN2)",TEXT_BOX,BatteryPackV_Terminals,,,,,,,,52
+"Battery DC Current, A",TEXT_BOX,BatteryDCCurrent,,,,,,,,53
+Battery Cell Min Volts,TEXT_BOX,BatteryCellMinV,,,,,,,,54
+Battery Cell Max Volts,TEXT_BOX,BatteryCellMaxV,,,,,,,,55
+BOOST Torque ONLY,RADIO_BUTTON_SWITCH,BOOSTTorqueONLY,,,false,,,BOOSTTorqueONLY_Cmd,<0E0003>,56
+REGEN Torque ONLY,RADIO_BUTTON_SWITCH,REGENTorqueONLY,,,false,,,REGENTorqueONLY_Cmd,<0E0004>,57
+Exhaust valve OPEN,RADIO_BUTTON_SWITCH,ExhaustValveOPEN,,,false,,,ExhaustValveOPEN_Cmd,<0E0005>,58
+VCU SD Card OK,ONE_RADIO_BUTTON,VCUSDCardOK,,,,,,,,59
+VCU EEPROM Config OK,ONE_RADIO_BUTTON,VCU_Configured,,,,,,,,60
+VCU EEPROM Checksum OK,ONE_RADIO_BUTTON,EEPROM_Checksum_match,,,,,,,,61
+Send VCU SW Update,COMMAND_BUTTON,,,,,,,,LOCAL_SEND_UPDATE,62
+"VCU Receiving File, % Comp.",TEXT_BOX,VCUReceivingFilePcntComp.,,,,,,,,63
+VCU Ready For Update,ONE_RADIO_BUTTON,VCUReadyForUpdate,,,,,,,,64
+Reboot VCU,COMMAND_BUTTON,,,,,,,,<F0000D>,65
