@@ -21,7 +21,7 @@ Excitement Mode: ON,ONE_RADIO_BUTTON,ExcitementModeON,,,,,,,,14
 "System Power, kW",TEXT_BOX,SystemPower,,,,,,,,19
 OK2torque,ONE_RADIO_BUTTON,OK2torque,,,,,,,,20
 OK2torque_ramped,ONE_RADIO_BUTTON,OK2torque_ramped,,,,,,,,21
-OK2regen,ONE_RADIO_BUTTON,Ok2regen,,,,,,,,22
+OK2regen,ONE_RADIO_BUTTON,OK2regen,,,,,,,,22
 OK2regen_ramped,ONE_RADIO_BUTTON,OK2regen_ramped,,,,,,,,23
 "H2O Pump ON, Batt",RADIO_BUTTON_SWITCH,H2OPumpON_Batt,,,false,,,H2OPumpON_Batt_Cmd,,24
 "H2O Pump ON, Mtr/Inv",RADIO_BUTTON_SWITCH,H2OPumpON_Mtr,,,false,,,H2OPumpON_Mtr_Cmd,,25
