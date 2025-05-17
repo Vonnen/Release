@@ -65,4 +65,4 @@ Send VCU SW Update,COMMAND_BUTTON,,,,,,,,LOCAL_SEND_UPDATE,62
 "VCU Receiving File, % Comp.",TEXT_BOX,VCUReceivingFilePcntComp.,,,,,,,,63
 VCU Ready For Update,ONE_RADIO_BUTTON,VCUReadyForUpdate,,,,,,,,64
 Reboot VCU,COMMAND_BUTTON,,,,,,,,<F0000D>,65
-Serial2 Baud Rate 115200,COMMAND_BUTTON,,,,,,,,<FF1000>,66
+Serial2 Baud Rate 115200,COMMAND_BUTTON,,,,,,,,<FFFFFE>,66
