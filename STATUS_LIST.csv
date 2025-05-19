@@ -57,7 +57,7 @@ Battery Cell Min Volts,TEXT_BOX,BatteryCellMinV,,,,,,,,54
 Battery Cell Max Volts,TEXT_BOX,BatteryCellMaxV,,,,,,,,55
 BOOST Torque ONLY,RADIO_BUTTON_SWITCH,BOOSTTorqueONLY,,,false,,,BOOSTTorqueONLY_Cmd,<0E0003>,56
 REGEN Torque ONLY,RADIO_BUTTON_SWITCH,REGENTorqueONLY,,,false,,,REGENTorqueONLY_Cmd,<0E0004>,57
-Exhaust valve ENA,RADIO_BUTTON_SWITCH,ExhaustValveENA,,,false,,,ExhaustValveENA_Cmd,<0E0005>,58
+Exhaust valve Enable,RADIO_BUTTON_SWITCH,ExhaustValveENA,,,false,,,ExhaustValveENA_Cmd,<0E0005>,58
 VCU SD Card OK,ONE_RADIO_BUTTON,VCUSDCardOK,,,,,,,,59
 VCU EEPROM Config OK,ONE_RADIO_BUTTON,VCU_Configured,,,,,,,,60
 VCU EEPROM Checksum OK,ONE_RADIO_BUTTON,EEPROM_Checksum_match,,,,,,,,61
