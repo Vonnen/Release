@@ -53,8 +53,8 @@ OK2Torque – Battery Temp,ONE_RADIO_BUTTON,OK2Torque_BattTemp,,,,,,,,50
 Battery Pack Voltage (SumOfCells),TEXT_BOX,BatteryPackV_SumOfCells,,,,,,,,51
 "Battery Pack Voltage (@ Terminals, GEN2)",TEXT_BOX,BatteryPackV_Terminals,,,,,,,,52
 "Battery DC Current, A",TEXT_BOX,BatteryDCCurrent,,,,,,,,53
-Battery Cell Min Volts,TEXT_BOX,BatteryCellMinV,,,,,,,,54
-Battery Cell Max Volts,TEXT_BOX,BatteryCellMaxV,,,,,,,,55
+"Battery Cell Min V, x1000",TEXT_BOX,BatteryCellMinV,,,,,,,,54
+"Battery Cell Max V, x1000",TEXT_BOX,BatteryCellMaxV,,,,,,,,55
 BOOST Torque ONLY,RADIO_BUTTON_SWITCH,BOOSTTorqueONLY,,,false,,,BOOSTTorqueONLY_Cmd,<0E0003>,56
 REGEN Torque ONLY,RADIO_BUTTON_SWITCH,REGENTorqueONLY,,,false,,,REGENTorqueONLY_Cmd,<0E0004>,57
 Exhaust valve Enable,RADIO_BUTTON_SWITCH,ExhaustValveENA,,,false,,,ExhaustValveENA_Cmd,<0E0005>,58
