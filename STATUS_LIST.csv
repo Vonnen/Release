@@ -61,7 +61,7 @@ Exhaust valve Enable,RADIO_BUTTON_SWITCH,ExhaustValveENA,,,false,,,ExhaustValveE
 VCU SD Card OK,ONE_RADIO_BUTTON,VCUSDCardOK,,,,,,,,59
 VCU EEPROM Config OK,ONE_RADIO_BUTTON,VCU_Configured,,,,,,,,60
 VCU EEPROM Checksum OK,ONE_RADIO_BUTTON,EEPROM_Checksum_match,,,,,,,,61
-Get VCU CUSTOM FW Update,COMMAND_BUTTON,,,,,,,,LOCAL_GET_CUSTOM_UPDATE,62
+Get VCU CUSTOM FW,COMMAND_BUTTON,,,,,,,,LOCAL_GET_CUSTOM_UPDATE,62
 "VCU Receiving File, % Comp.",TEXT_BOX,VCUReceivingFilePcntComp.,,,,,,,,63
 VCU Ready For Update,ONE_RADIO_BUTTON,VCUReadyForUpdate,,,,,,,,64
 Reboot VCU,COMMAND_BUTTON,,,,,,,,<F0000D>,65
