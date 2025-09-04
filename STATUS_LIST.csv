@@ -51,7 +51,7 @@ OK2Torque – Inverter Temp,ONE_RADIO_BUTTON,OK2Torque_InvTemp,,,,,,,,47
 "Battery Max Temp, °C",TEXT_BOX,BatteryMaxTemp,,,,,,,,49
 OK2Torque – Battery Temp,ONE_RADIO_BUTTON,OK2Torque_BattTemp,,,,,,,,50
 Battery Pack Voltage (SumOfCells),TEXT_BOX,BatteryPackV_SumOfCells,,,,,,,,51
-"Battery Pack Voltage (@ Terminals, GEN2)",TEXT_BOX,BatteryPackV_Terminals,,,,,,,,52
+"DC Voltage @ Inverter",TEXT_BOX,DCV_Inverter,,,,,,,,52
 "Battery DC Current, A",TEXT_BOX,BatteryDCCurrent,,,,,,,,53
 "Battery Cell Min V, x1000",TEXT_BOX,BatteryCellMinV,,,,,,,,54
 "Battery Cell Max V, x1000",TEXT_BOX,BatteryCellMaxV,,,,,,,,55
