@@ -43,30 +43,32 @@ Throttle Position %,TEXT_BOX,ThrottlePositionPcnt,,,,,,,,39
 Brake Pressure %,TEXT_BOX,BrakePressurePcnt,,,,,,,,41
 Inverter Enable Command,ONE_RADIO_BUTTON,InverterEnableCmd,,,,,,,,42
 Inverter Enabled,ONE_RADIO_BUTTON,InverterEnabled,,,,,,,,43
-"Motor Temp, °C",TEXT_BOX,MotorTemp,,,,,,,,44
-OK2Torque – Motor Temp,ONE_RADIO_BUTTON,OK2Torque_MotorTemp,,,,,,,,45
-"Inverter Temp, °C",TEXT_BOX,InverterTemp,,,,,,,,46
-OK2Torque – Inverter Temp,ONE_RADIO_BUTTON,OK2Torque_InvTemp,,,,,,,,47
-"Battery Min Temp, °C",TEXT_BOX,BatteryMinTemp,,,,,,,,48
-"Battery Max Temp, °C",TEXT_BOX,BatteryMaxTemp,,,,,,,,49
-OK2Torque – Battery Temp,ONE_RADIO_BUTTON,OK2Torque_BattTemp,,,,,,,,50
-Battery Pack Voltage (SumOfCells),TEXT_BOX,BatteryPackV_SumOfCells,,,,,,,,51
-"DC Voltage @ Inverter",TEXT_BOX,DCV_Inverter,,,,,,,,52
-"Battery DC Current, A",TEXT_BOX,BatteryDCCurrent,,,,,,,,53
-"Battery Cell Min V, x1000",TEXT_BOX,BatteryCellMinV,,,,,,,,54
-"Battery Cell Max V, x1000",TEXT_BOX,BatteryCellMaxV,,,,,,,,55
-BOOST Torque ONLY,RADIO_BUTTON_SWITCH,BOOSTTorqueONLY,,,false,,,BOOSTTorqueONLY_Cmd,<0E0003>,56
-REGEN Torque ONLY,RADIO_BUTTON_SWITCH,REGENTorqueONLY,,,false,,,REGENTorqueONLY_Cmd,<0E0004>,57
-"Motor TQ Max Cmd, Nm",TEXT_BOX,MotorTorqueMaxCmd,,,,,,,,58
-Exhaust valve Enable,RADIO_BUTTON_SWITCH,ExhaustValveENA,,,false,,,ExhaustValveENA_Cmd,<0E0005>,59
-VCU SD Card OK,ONE_RADIO_BUTTON,VCUSDCardOK,,,,,,,,60
-VCU EEPROM Config OK,ONE_RADIO_BUTTON,VCU_Configured,,,,,,,,61
-VCU EEPROM Checksum OK,ONE_RADIO_BUTTON,EEPROM_Checksum_match,,,,,,,,62
-VSD System Warning,ONE_RADIO_BUTTON,VSD_System_Warning,,,,,,,,63
-VSD System Fault,ONE_RADIO_BUTTON,VSD_System_Fault,,,,,,,,64
-Get VCU CUSTOM FW,COMMAND_BUTTON,,,,,,,,LOCAL_GET_CUSTOM_UPDATE,65
-"VCU Receiving File, % Comp.",TEXT_BOX,VCUReceivingFilePcntComp.,,,,,,,,66
-VCU Ready For Update,ONE_RADIO_BUTTON,VCUReadyForUpdate,,,,,,,,67
-Reboot VCU,COMMAND_BUTTON,,,,,,,,<F0000D>,68
-Serial2 Baud Rate 115200,COMMAND_BUTTON,,,,,,,,<FFFFFE>,69
-Send CUSTOM VCU Command,COMMAND_BUTTON,,,,,,,,SEND_CUSTOM_COMMAND,70
+NX Inverter App State,TEXT_BOX,NXinvAppState,,,,,,,,44
+NX Inverter App State Req,TEXT_BOX,NXinvAppStateReq,,,,,,,,45
+"Motor Temp, °C",TEXT_BOX,MotorTemp,,,,,,,,46
+OK2Torque – Motor Temp,ONE_RADIO_BUTTON,OK2Torque_MotorTemp,,,,,,,,47
+"Inverter Temp, °C",TEXT_BOX,InverterTemp,,,,,,,,48
+OK2Torque – Inverter Temp,ONE_RADIO_BUTTON,OK2Torque_InvTemp,,,,,,,,49
+"Battery Min Temp, °C",TEXT_BOX,BatteryMinTemp,,,,,,,,50
+"Battery Max Temp, °C",TEXT_BOX,BatteryMaxTemp,,,,,,,,51
+OK2Torque – Battery Temp,ONE_RADIO_BUTTON,OK2Torque_BattTemp,,,,,,,,52
+Battery Pack Voltage (SumOfCells),TEXT_BOX,BatteryPackV_SumOfCells,,,,,,,,53
+"DC Voltage @ Inverter",TEXT_BOX,DCV_Inverter,,,,,,,,54
+"Battery DC Current, A",TEXT_BOX,BatteryDCCurrent,,,,,,,,55
+"Battery Cell Min V, x1000",TEXT_BOX,BatteryCellMinV,,,,,,,,56
+"Battery Cell Max V, x1000",TEXT_BOX,BatteryCellMaxV,,,,,,,,57
+BOOST Torque ONLY,RADIO_BUTTON_SWITCH,BOOSTTorqueONLY,,,false,,,BOOSTTorqueONLY_Cmd,<0E0003>,58
+REGEN Torque ONLY,RADIO_BUTTON_SWITCH,REGENTorqueONLY,,,false,,,REGENTorqueONLY_Cmd,<0E0004>,59
+"Motor TQ Max Cmd, Nm",TEXT_BOX,MotorTorqueMaxCmd,,,,,,,,60
+Exhaust valve Enable,RADIO_BUTTON_SWITCH,ExhaustValveENA,,,false,,,ExhaustValveENA_Cmd,<0E0005>,61
+VCU SD Card OK,ONE_RADIO_BUTTON,VCUSDCardOK,,,,,,,,62
+VCU EEPROM Config OK,ONE_RADIO_BUTTON,VCU_Configured,,,,,,,,63
+VCU EEPROM Checksum OK,ONE_RADIO_BUTTON,EEPROM_Checksum_match,,,,,,,,64
+VSD System Warning,ONE_RADIO_BUTTON,VSD_System_Warning,,,,,,,,65
+VSD System Fault,ONE_RADIO_BUTTON,VSD_System_Fault,,,,,,,,66
+Get VCU CUSTOM FW,COMMAND_BUTTON,,,,,,,,LOCAL_GET_CUSTOM_UPDATE,67
+"VCU Receiving File, % Comp.",TEXT_BOX,VCUReceivingFilePcntComp.,,,,,,,,68
+VCU Ready For Update,ONE_RADIO_BUTTON,VCUReadyForUpdate,,,,,,,,69
+Reboot VCU,COMMAND_BUTTON,,,,,,,,<F0000D>,70
+Serial2 Baud Rate 115200,COMMAND_BUTTON,,,,,,,,<FFFFFE>,71
+Send CUSTOM VCU Command,COMMAND_BUTTON,,,,,,,,SEND_CUSTOM_COMMAND,72
